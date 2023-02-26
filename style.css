@@ -1,0 +1,206 @@
+.container1{
+display: flex;
+justify-content: flex-end;
+background: gray;
+gap: 20px;
+}
+
+.link{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px;
+    font-family: 'Robot', arial;
+    color: #E5E7EB;
+}
+
+.container2{
+    padding: 30px;
+    justify-content: center;
+    display: flex;
+    background: grey;
+    gap: 20px;
+}
+
+.text2 p{
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+    font-family: 'Robot', arial;
+    text-align: center;
+}
+
+.img1 img {
+    width: 500px;
+    height: 300px;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #F9FAF8;
+    font-family: 'Robot', arial;
+}
+
+.text1 button {
+    width: 9em;
+    height: 3em;
+    border-radius: 30em;
+    font-size: 15px;
+    font-family: inherit;
+    border: none;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+}
+
+button::before {
+    content: '';
+    width: 0;
+    height: 3em;
+    border-radius: 30em;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to right, #0fd850 0%, #f9f047 100%);
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
+}
+
+button:hover::before {
+    width: 9em;
+}
+
+p {
+    font-size: 20px;
+    color:#F9FAF8;
+    font-family: 'Robot', arial;
+}
+
+.container3 {
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+    background: white;
+}
+
+.burgers p {
+    font-size: 20px;
+    color: black;
+}
+.apple-pie p {
+    font-size: 20px;
+    color: black;
+}
+
+.french-fries p {
+    font-size: 20px;
+    color: black;
+}
+
+.hot-dogs p {
+    font-size: 20px;
+    color: black;
+}
+
+.img2 img{
+    width: 200px;
+    height: 150px;
+    border: 4px solid skyblue;
+    border-radius: 30px;
+}
+
+.img3 img{
+    width: 150px;
+    height: 150px;
+    border: 4px solid skyblue;
+    border-radius: 30px;
+}
+
+.img4 img{
+    width: 160px;
+    height: 150px;
+    border: 4px solid skyblue;
+    border-radius: 30px;
+}
+
+.img5 img{
+    width: 160px;
+    height: 150px;
+    border: 4px solid skyblue;
+    border-radius: 30px;
+}
+
+.img2{
+    text-align: center;
+}
+
+.img3{
+    text-align: center;
+}
+
+.img4{
+    text-align: center;
+}
+
+.img5{
+    text-align: center;
+}
+
+.text3 h3 {
+    color: white;
+    font-family: 'Robot', arial;
+}
+
+.container4{
+    display: flex;
+    background: blue;
+    padding: 5px 70px;
+    margin: 30px 200px;
+    border-radius: 30px;
+    justify-content: space-between;
+}
+
+.text4{
+    padding-top: 30px;
+}
+
+.text4 button {
+    width: 9em;
+    height: 3em;
+    border-radius: 30em;
+    font-size: 15px;
+    font-family: inherit;
+    border: none;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+}
+
+button::before {
+    content: '';
+    width: 0;
+    height: 3em;
+    border-radius: 30em;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to right, #0fd850 0%, #f9f047 100%);
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
+}
+
+button:hover::before {
+    width: 9em;
+}
+
+.end{
+    font-family: 'Robot', arial;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    background-color: gray;
+}
